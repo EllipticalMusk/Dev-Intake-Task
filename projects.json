@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Task 18 - Calculator",
+    "image": "Tasks/Task 18/screenshot.png",
+    "link": "Tasks/Task 18/index.html",
+    "description": "A simple calculator built with HTML, CSS, and JavaScript."
+  },
+  {
+    "name": "Task 2 - To-Do App",
+    "image": "projects/task2/screenshot.png",
+    "link": "projects/task2/index.html",
+    "description": "A To-Do list app using local storage."
+  }
+]
