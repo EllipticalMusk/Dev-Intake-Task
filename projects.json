@@ -1,8 +1,14 @@
 [
   {
-    "name": "Task 18 - Calculator",
-    "image": "Tasks/Task 18/screenshot.png",
+    "name":"Currency Converter",
+    "image": "Tasks/Task 17/src/screenshot.png",
+    "link": "Tasks/Task 17/index.html",
+    "description": "A Simple Currency Converter"
+  },
+  {
+    "name": "Real-Time Character Counter",
+    "image": "Tasks/Task 18//src/screenshot.png",
     "link": "Tasks/Task 18/index.html",
-    "description": "A simple calculator built with HTML, CSS, and JavaScript."
+    "description": "A Simple Dynamic Character Counter"
   }
 ]
