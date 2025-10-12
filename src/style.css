@@ -54,4 +54,57 @@ body {
   transform: translateY(0);
   box-shadow: 0 2px 6px rgba(0, 123, 255, 0.4);
 }
+.contact-section {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #1e1e1e, #2a2a2a);
+  color: #fff;
+  border-radius: 0px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.contact-section h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.contact-section p {
+  color: #ccc;
+  max-width: 500px;
+  margin: 0 auto 25px auto;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.social-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.social-btn i {
+  font-size: 1.2em;
+}
+
+/* Button Colors */
+.email { background: #ea4335; }     /* Gmail red */
+.github { background: #333; }       /* GitHub dark gray */
+.linkedin { background: #0077b5; }  /* LinkedIn blue */
+
+.social-btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
 

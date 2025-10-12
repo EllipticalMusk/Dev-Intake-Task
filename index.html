@@ -1,70 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Omar’s Web Projects</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omar Hamdy Khalil</title>
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <!--Fac Icon  -->
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="./src/style.css">
-</head>
-<body>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
 
-  <!-- 🌟 Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm sticky-top">
-    <div class="container">
-      <a class="navbar-brand fw-bold" href="#">My Projects</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
+    <!--Fac Icon  -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <!-- 🌟 Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm sticky-top"
+    >
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">My Projects</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <!-- 💬 Hero Section -->
-  <header class="bg-light text-center py-5">
-    <div class="container">
-      <h1 class="fw-bold mb-3">Welcome to My Project Gallery</h1>
-      <p class="lead text-muted">A collection of my HTML, CSS, and JavaScript projects</p>
-      <a href="#projects" class="btn btn-primary mt-3">View My Work</a>
-    </div>
-  </header>
-
-  <!-- 🧩 Projects Section -->
-  <section id="projects" class="py-5 bg-body-secondary">
-    <div class="container">
-      <div class="text-center mb-5">
-        <h2 class="fw-bold">My Projects</h2>
-        <p class="text-muted">Click on a project to view it live</p>
+    <!-- 💬 Hero Section -->
+    <header class="bg-light text-center py-5">
+      <div class="container">
+        <h1 class="fw-bold mb-3">Welcome to My Project Gallery</h1>
+        <p class="lead text-muted">
+          A collection of my HTML, CSS, and JavaScript projects
+        </p>
+        <a href="#projects" class="btn btn-primary mt-3">View My Work</a>
       </div>
+    </header>
 
-      <div class="row" id="projects-container">
-        <!-- JS will insert project cards here -->
+    <!-- 🧩 Projects Section -->
+    <section id="projects" class="py-5 bg-body-secondary">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">My Projects</h2>
+          <p class="text-muted">Click on a project to view it live</p>
+        </div>
+
+        <div class="row" id="projects-container">
+          <!-- JS will insert project cards here -->
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+    <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+      <p>
+        I'm always open to connecting! Feel free to reach out via email or
+        connect with me on GitHub or LinkedIn.
+      </p>
 
-  <!-- 📩 Contact -->
-  <footer id="contact" class="bg-dark text-white text-center py-4">
-    <p class="mb-0">© 2025 Omar Hamdy Khalil</p>
-  </footer>
+      <div class="social-buttons">
+        <a href="mailto:youremail@gmail.com" class="social-btn email">
+          <i class="fas fa-envelope"></i> Email
+        </a>
+        <a
+          href="https://github.com/ellipticalmusk"
+          target="_blank"
+          class="social-btn github"
+        >
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a
+          href="https://www.linkedin.com/in/yourusername/"
+          target="_blank"
+          class="social-btn linkedin"
+        >
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+      </div>
+    </section>
 
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- Custom Script -->
-  <script src="./src/script.js"></script>
-</body>
+    <!-- 📩 Contact -->
+    <footer id="contact" class="text-white text-center py-4" style="background: linear-gradient(135deg, #1e1e1e, #2a2a2a);;">
+      <p class="mb-0">© 2025 Omar Hamdy Khalil</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom Script -->
+    <script src="./src/script.js"></script>
+  </body>
 </html>
